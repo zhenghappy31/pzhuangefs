@@ -30,6 +30,11 @@ class Customer extends Model
 
     }
 
+    public function funds() {
+        return $this->hasMany('App\Fund');
+
+        }
+
 
 }
 
